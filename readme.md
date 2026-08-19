@@ -2,7 +2,14 @@
 
 **Sergei(Serhii) Maiorov**
 
-## Moduuli 1
+## Moduulit 1 ja 2
 
-Tein tehtävää "sw1-python"
+Tein tehtävät 1 ja 2
+
+
+## Moduuli 3
+
+
+
+## Moduuli 4
 
