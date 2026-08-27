@@ -3,7 +3,6 @@
 **Sergei(Serhii) Maiorov**
 
 ## Moduulit 1 ja 2
-
 Tein tehtävät 1 ja 2
 
 
@@ -11,6 +10,13 @@ Tein tehtävät 1 ja 2
 Tein tehtävät 3.1-3.6 ja "Projekti 1. Ohjelmointiprojektitehtävän aloitus"
 
 
-
 ## Moduuli 4
+Valmis moduuli 4 tehtäviä
 
+
+
+## Moduuli 5
+
+## Moduuli 6
+
+## Moduuli 7
