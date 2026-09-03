@@ -13,9 +13,8 @@ Tein tehtävät 3.1-3.6 ja "Projekti 1. Ohjelmointiprojektitehtävän aloitus"
 ## Moduuli 4
 Valmis moduuli 4 tehtäviä
 
-
-
 ## Moduuli 5
+Valmis moduuli 5 tehtäviä  ja "Projekti 2."
 
 ## Moduuli 6
 
