@@ -18,6 +18,10 @@ Valmis moduuli 5 tehtäviä
 
 ## Moduuli 6
 
-Alkaa moduuli 6 tehtäviä
+Moduulin tehtävät on suoritettu osittain
 
 ## Moduuli 7
+Moduulin tehtävät on suoritettu osittain
+
+## Moduuli 8
+Moduulin tehtävät on suoritettu osittain
