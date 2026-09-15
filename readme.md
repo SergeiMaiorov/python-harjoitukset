@@ -17,7 +17,6 @@ Valmis moduuli 4 tehtäviä
 Valmis moduuli 5 tehtäviä
 
 ## Moduuli 6
-
 Moduulin tehtävät on suoritettu osittain
 
 ## Moduuli 7
@@ -25,3 +24,18 @@ Moduulin tehtävät on suoritettu osittain
 
 ## Moduuli 8
 Moduulin tehtävät on suoritettu osittain
+
+
+## Moduuli 9
+
+
+## Moduuli 10
+
+
+## Moduuli 11
+
+
+## Moduuli 12
+
+
+## Moduuli 13
