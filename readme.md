@@ -27,9 +27,10 @@ Moduulin tehtävät on suoritettu osittain
 
 
 ## Moduuli 9
-
+Moduulin tehtävät on suoritettu osittain
 
 ## Moduuli 10
+Moduulin tehtävät on suoritettu osittain
 
 
 ## Moduuli 11
