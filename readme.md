@@ -34,7 +34,7 @@ Moduulin tehtävät on suoritettu osittain
 
 
 ## Moduuli 11
-
+Moduulin tehtävät on suoritettu osittain
 
 ## Moduuli 12
 
