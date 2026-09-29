@@ -30,7 +30,7 @@ Moduulin tehtävät on suoritettu osittain
 Moduulin tehtävät on suoritettu osittain
 
 ## Moduuli 10
-Moduulin tehtävät on suoritettu osittain
+Valmis moduuli 10 tehtäviä
 
 
 ## Moduuli 11
