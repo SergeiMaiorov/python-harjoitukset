@@ -13,7 +13,7 @@ Valmis moduuli Päävalikko
 Valmis moduuli Päävalikon toiminnot ja “inventaario”
 
 ## Projekti 4
-Aloitettu ja osittain tehty
+Valmis(Luo luokat: pelaaja, huone ja esine)
 
 ## Projekti 5
 Aloitettu
