@@ -16,4 +16,4 @@ Valmis moduuli Päävalikon toiminnot ja “inventaario”
 Valmis(Luo luokat: pelaaja, huone ja esine)
 
 ## Projekti 5
-Aloitettu
+Valmis 

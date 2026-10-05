@@ -1,4 +1,6 @@
 #Luokat "Avaruuden reuna" pelista
+##Luokkien (Huone ja Pelaaja) yhdistäminen perustuvat Github-käyttäjä AvaHeinonen koodiin osoitteessa https://github.com/AvaHeinonen/RoomGame/blob/main/room_game.py
+
 
 class Esine:
     def __init__(self, nimi, paino):
