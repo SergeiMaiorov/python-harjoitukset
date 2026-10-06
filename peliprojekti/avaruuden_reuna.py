@@ -48,9 +48,9 @@ else:
     huone3 = Huone("Varasto", "Pimeä huone")
 
     huone1.add_exit("Eteen", huone2)
-    huone2.add_exit("Taakse", huone1)
+    huone2.add_exit("Takaisin", huone1)
     huone2.add_exit("Oikea", huone3)
-    huone3.add_exit("Vasemmalle", huone2)
+    huone3.add_exit("Vasen", huone2)
 
     moottori = Esine("Moottori", 15.5)
     huone3.esine = moottori
@@ -69,7 +69,7 @@ else:
         print(f"{esine} lisätty reppuun.") """
         
     def pelaa():
-        suunta = input("Anna suunta (eteen/taakse/oikea/vasemmalle): ").strip().upper()
+        suunta = input("Anna suunta (eteen/takaisin/oikea/vasen): ").strip().upper()
         pelaaja.liiku(suunta)
         
     def keraa():
