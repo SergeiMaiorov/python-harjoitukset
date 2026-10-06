@@ -1,5 +1,5 @@
 import json
-#import os
+import os
 
 #tietojen yhdistäminen ja tuominen "luokat.py" tiedostosta 
 from luokat import Esine, Huone, Pelaaja
@@ -31,7 +31,14 @@ except FileNotFoundError:
 
 
 nimi = input("Anna nimesi: ")
-ikä = int(input("Anna ikäsi: "))
+
+# tarkista numerot "ikä"-arvossa
+while True:
+    try:
+        ikä = int(input("Anna ikäsi: "))
+        break
+    except ValueError:
+        print("Virhe. Anna ikä lukuna.")
 
 # iän vahvistuslohko
 if ikä < 12:
@@ -115,11 +122,13 @@ else:
         except FileNotFoundError:
             print("Tallenta peliä ei löytynyt. Tiedostoa ei ole löydy.")    
     
-    """# Tein "Tiedoston poistaminen" esimerkin mukaan https://metropolia-sw.github.io/sw1-python/en/13_file_handling.html
-if os.path.exists("save.txt"):
-    os.remove("save.txt")
-else:
-    print("Tiedostoa ei löydy.") """
+# Tein "Tiedoston poistaminen" esimerkin mukaan https://metropolia-sw.github.io/sw1-python/en/13_file_handling.html
+    def poista_peli():
+        if os.path.exists("save.json"):
+            os.remove("save.json")
+            print("Peli poistettu.")
+        else:
+            print("Tiedostoa ei löydy.")
     
     
 #Päävalikko
@@ -127,9 +136,14 @@ else:
 
     while komento != "lopeta":
         print() 
-        print("-"*50)
-        print("\n--- Päävalikko ---")
-        print("Komennot: liiku, keraa, reppu, tilanne, tallenna, lataa, lopeta")
+        print("="*30)
+        print("\n<<<<<<<<< Päävalikko >>>>>>>>>\n")
+        print("="*30)
+        print("Komennot:\nHuomautus: käytä komentoja -  liiku, keraa, reppu, tilanne, tallenna, lataa, poista, lopeta!\n")
+        print("="*30)
+
+        print("{ liiku } - liiku huoneeseen\n{ keraa } - kerää esine\n{ reppu } - katso reppu\n{ tilanne } - katso tilanne\n{ tallenna } - tallenna peli\n{ lataa } - lataa peli\n{ poista } - poista peli\n{ lopeta } - lopeta peli\n")
+        print("="*30)
         komento = input("Anna komento: ").strip().lower()
 
         if komento == "liiku":
@@ -144,6 +158,8 @@ else:
             tallenna_peli()
         elif komento == "lataa":
             lataa_peli()
+        elif komento == "poista":
+            poista_peli()
         elif komento == "lopeta":
             print("Näkemiin!")
         else:
