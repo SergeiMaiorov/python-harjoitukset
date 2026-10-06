@@ -35,9 +35,7 @@ ikä = int(input("Anna ikäsi: "))
 
 # iän vahvistuslohko
 if ikä < 12:
-    print("Olet alaikäinen ja ohjelma sammuu!\n")
-elif ikä > 125:
-    print("Olet kuolematon!\n")      
+    print("Olet alaikäinen ja ohjelma sammuu!")
 else:
     print(f"Tervetuloa, {nimi}!\nVahvistettu ikä {ikä} vuotta!\n")
     
@@ -49,10 +47,10 @@ else:
     huone2 = Huone("Käytävä", "Pitkä ja kylmä käytävä")
     huone3 = Huone("Varasto", "Pimeä huone")
 
-    huone1.add_exit("eteen", huone2)
-    huone2.add_exit("takaisin", huone1)
-    huone2.add_exit("oikea", huone3)
-    huone3.add_exit("vasen", huone2)
+    huone1.add_exit("Eteen", huone2)
+    huone2.add_exit("Takaisin", huone1)
+    huone2.add_exit("Oikea", huone3)
+    huone3.add_exit("Vasen", huone2)
 
     moottori = Esine("Moottori", 15.5)
     huone3.esine = moottori
@@ -71,7 +69,7 @@ else:
         print(f"{esine} lisätty reppuun.") """
         
     def pelaa():
-        suunta = input("Anna suunta (eteen/takaisin/oikea/vasen): ")
+        suunta = input("Anna suunta (eteen/takaisin/oikea/vasen): ").strip().upper()
         pelaaja.liiku(suunta)
         
     def keraa():
@@ -115,7 +113,7 @@ else:
         except FileNotFoundError:
             print("Tallenta peliä ei löytynyt. Tiedostoa ei ole löydy.")    
     
-    """# Tein "Tiedoston poistaminen" esimerkin mukaan https://metropolia-sw.github.io/sw1-python/en/13_file_handling.html
+"""# Tein "Tiedoston poistaminen" esimerkin mukaan https://metropolia-sw.github.io/sw1-python/en/13_file_handling.html
 if os.path.exists("save.txt"):
     os.remove("save.txt")
 else:
