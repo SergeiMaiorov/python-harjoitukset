@@ -5,10 +5,8 @@
 ## Moduulit 1 ja 2
 Tein tehtävät 1 ja 2
 
-
 ## Moduuli 3
 Tein tehtävät 3.1-3.6 ja "Projekti 1. Ohjelmointiprojektitehtävän aloitus"
-
 
 ## Moduuli 4
 Valmis moduuli 4 tehtäviä
@@ -25,18 +23,12 @@ Moduulin tehtävät on suoritettu osittain
 ## Moduuli 8
 Moduulin tehtävät on suoritettu osittain
 
-
 ## Moduuli 9
 Moduulin tehtävät on suoritettu osittain
 
 ## Moduuli 10
 Valmis moduuli 10 tehtäviä
 
-
 ## Moduuli 11
 Moduulin tehtävät on suoritettu osittain
 
-## Moduuli 12
-
-
-## Moduuli 13
