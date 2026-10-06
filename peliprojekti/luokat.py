@@ -1,6 +1,5 @@
 #Luokat "Avaruuden reuna" pelista
-##Luokkien (Huone ja Pelaaja) yhdistäminen perustuvat Github-käyttäjä AvaHeinonen koodiin osoitteessa https://github.com/AvaHeinonen/RoomGame/blob/main/room_game.py
-
+##Luokkien (Huone ja Pelaaja) yhdistäminen perustuvat Github-käyttäjä AvaHeinonen koodiin osoitteessa https://github.com/AvaHeinonen/huoneGame/blob/main/huone_game.py
 
 class Esine:
     def __init__(self, nimi, paino):
@@ -14,14 +13,14 @@ class Huone:
         self.exits = {}
         self.esine = None
 
-    def add_exit(self, direction, room):
-        self.exits[direction] = room
+    def add_exit(self, suunta, huone):
+        self.exits[suunta] = huone
 
-    def has_exit(self, direction):
-        return direction in self.exits
+    def has_exit(self, suunta):
+        return suunta in self.exits
 
-    def get_next_room(self, direction):
-        return self.exits.get(direction)
+    def get_next_huone(self, suunta):
+        return self.exits.get(suunta)
 
 class Pelaaja:
     def __init__(self, nimi, sijainti):
@@ -31,7 +30,7 @@ class Pelaaja:
 
     def liiku(self, suunta):
         if self.sijainti.has_exit(suunta):
-            self.sijainti = self.sijainti.get_next_room(suunta)
+            self.sijainti = self.sijainti.get_next_huone(suunta)
             print(f"Menit suuntaan: {suunta}")
         else:
             print("Et voi mennä sinne")
